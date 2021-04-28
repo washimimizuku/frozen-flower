@@ -9,7 +9,6 @@ import MySQLdb
 import re
 import sys
 
-#db = MySQLdb.connect(host='localhost', user='frozen_frozen', passwd='theman', db='frozen_frozenflower')
 db = MySQLdb.connect(host='localhost', user='webuser', passwd='webuser', db='frozenflower', use_unicode=True, init_command='SET NAMES utf8;')
 entryCursor = db.cursor()
 feedCursor = db.cursor()

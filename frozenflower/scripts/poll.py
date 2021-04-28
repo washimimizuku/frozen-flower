@@ -8,7 +8,7 @@ import feedparser
 import MySQLdb
 import re
 
-db = MySQLdb.connect(host='localhost', user='frozen_frozen', passwd='theman', db='frozen_frozenflower')
+db = MySQLdb.connect(host='localhost', user='frozenflower', passwd='frozenflower', db='frozenflower')
 entryCursor = db.cursor()
 feedCursor = db.cursor()
 feedCursor.execute('SELECT id, feedUrl, title, author FROM feed where active=1')

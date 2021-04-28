@@ -32,7 +32,7 @@ create table user (
 	key (tribeID)
 );
 
-insert into user values ('1', '1', 'Nuno Barreto', 'nbarr', '78b21db081f166277f645bf06131a8a1');
+insert into user values ('1', '1', 'Nuno Barreto', 'nbarreto', '78b21db081f166277f6123f06131a8a1');
 
 create table category (
 	id smallint unsigned not null unique auto_increment,
