@@ -1,4 +1,4 @@
-# frozen-flower
+# Frozen flower
 
 This is a project from 2007 that has not been updated since. It's here just for history keeping.
 
